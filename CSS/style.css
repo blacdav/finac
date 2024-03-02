@@ -106,7 +106,8 @@ li a:hover {
 }
 
 .span1 {
-    color: linear-gradient(90deg, #BDFF0D 85%, #5C944C 15%);
+    color: #BDFF0D;
+    /* color: linear-gradient(90deg, #BDFF0D 85%, #5C944C 15%); */
 }
 
 #part1 div:first-child {
@@ -151,6 +152,7 @@ li a:hover {
 .img {
     display: flex;
     margin-bottom: 200px;
+    margin-right: 15px;
 }
 
 .img .img2 {
@@ -186,8 +188,6 @@ li a:hover {
 
 .phone img {
     width: 100px;
-    /* overflow: hidden; */
-    /* margin-left: -50px; */
 }
 
 #cards {
