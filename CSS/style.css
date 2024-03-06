@@ -290,24 +290,28 @@ li a:hover {
     padding-top: 40px;
 }
 
+#slide #slide2 {
+    width: 100%;
+    /* background-color: red; */
+    overflow-x: scroll;
+}
+
 #slide .slide-cards {
     display: flex;
+    width: auto;
     gap: 50px;
-    /* width: 100%; */
-    /* background-color: red; */
-    /* overflow: scroll; */
 }
 
 #slide .slide-cards .slide-card {
     background-color: #FFFFFF;
-    width: 25%;
+    width: 350px;
     padding: 40px;
     border-radius: 5px;
     margin-top: 50px;
 }
 
 #slide .slide-cards .slide-card:hover {
-    width: 30%;
+    width: 400px;
     padding: 30px;
 }
 
@@ -479,4 +483,57 @@ footer li a:hover {
 .part2 div {
     display: flex;
     gap: 20px;
+}
+
+/* Media query for medium screen-size */
+@media (max-width: 768px) {
+    /* body {
+        visibility: hidden;
+    } */
+
+
+}
+
+/* Media query for mobile screen-size */
+@media (max-width: 520px) {
+    body {
+        /* visibility: hidden; */
+        font-size: small;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    #part1 {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    #part1 div:first-child h1 {
+        font-size: 40px;
+    }
+
+    #part1 div:last-child img {
+        width: 350px;
+    }
+
+    #cards .card-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #split {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #questions .questions {
+        width: 90%;
+    }
+
+    footer .part2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
