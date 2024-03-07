@@ -223,6 +223,7 @@ li a:hover {
 
 #cards .card-list .card .img {
     background-color: #BDFF0D;
+    width: -moz-fit-content;
     width: fit-content;
     margin: auto;
     padding: 10px 13px 10px 13px;
@@ -237,6 +238,7 @@ li a:hover {
 }
 
 #split .split {
+    display: flex;
     background-color: #5C944C;
     border-radius: 10px;
     overflow: hidden;
@@ -248,7 +250,7 @@ li a:hover {
 }
 
 #split .split .imga {
-    margin: -120px 30px 100px 90px;
+    margin: -120px 30px 100px 0;
 }
 
 #split .split .imgb {
@@ -528,8 +530,46 @@ footer li a:hover {
         grid-template-columns: 1fr;
     }
 
+    #split .split img {
+        width: 100px;
+    }
+
+    #split .split .imga {
+        margin-top: -67px;
+        margin-bottom: 40px;
+    }
+
+    #split .split .imgb {
+        margin-bottom: -70px;
+    }
+
+    #split .man .iman {
+        width: 200px;
+    }
+
+    #split .man .cash {
+        margin-top: -150px;
+    }
+
+    #split .man .coin {
+        margin-top: -80px;
+    }
+
     #questions .questions {
         width: 90%;
+    }
+
+    #bg3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #bg3 .pics .img1 {
+        width: 35px;
+    }
+
+    #bg3 .pics .img2 {
+        width: 200px;
     }
 
     footer .part2 {
