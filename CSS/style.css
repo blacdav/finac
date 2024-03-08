@@ -302,6 +302,7 @@ li a:hover {
     display: flex;
     width: auto;
     gap: 50px;
+    align-items: center;
 }
 
 #slide .slide-cards .slide-card {
@@ -314,6 +315,7 @@ li a:hover {
 
 #slide .slide-cards .slide-card:hover {
     width: 400px;
+    height: 280px;
     padding: 30px;
 }
 
