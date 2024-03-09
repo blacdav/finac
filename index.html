@@ -6,10 +6,9 @@
     <title>finac</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="shortcut icon" href="./IMG/Phone-Portrait.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"> -->
 </head>
-<body lazy="true">
+<body>
     <header>
         <section id="header" class="container">
             <img src="./IMG/Finac.logo.svg" alt="...">
@@ -139,9 +138,9 @@
             <h2>What Our over <span class="span3">1000+</span> customer are Saying</h2>
         </div>
 
-        <div id="slide2 swiper">
-            <div class="slide-cards swiper-wrapper" data-aos="slide-down">
-                <div class="slide-card swiper-slide">
+        <div id="slide2">
+            <div class="slide-cards" data-aos="slide-down">
+                <div class="slide-card">
                     <p class="p1">
                         "Transferring Money used to be such a hassel untill i found this fintech platform. 
                         Now it's a seamless experience everytime. The interface is so user-friendly, and 
@@ -156,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-card swiper-slide">
+                <div class="slide-card">
                     <p class="p1">
                         "Transferring Money used to be such a hassel untill i found this fintech platform. 
                         Now it's a seamless experience everytime. The interface is so user-friendly, and 
@@ -171,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-card swiper-slide">
+                <div class="slide-card">
                     <p class="p1">
                         "Transferring Money used to be such a hassel untill i found this fintech platform. 
                         Now it's a seamless experience everytime. The interface is so user-friendly, and 
@@ -186,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-card swiper-slide">
+                <div class="slide-card">
                     <p class="p1">
                         "Transferring Money used to be such a hassel untill i found this fintech platform. 
                         Now it's a seamless experience everytime. The interface is so user-friendly, and 
@@ -202,15 +201,13 @@
                     </div>
                 </div>
             </div>
-            <div class="selector swiper-pagnition" data-aos="slide-right">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="selector" data-aos="slide-right">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </section>
 
@@ -307,36 +304,12 @@
         </section>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js">
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            // direction: 'vertical',
-            loop: true,
-            slidesPerGroup: 3,
-
-            // If we need pagination
-            pagination: {
-            el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            // navigation: {
-            // nextEl: '.swiper-button-next',
-            // prevEl: '.swiper-button-prev',
-            // },
-
-            // And if we need scrollbar
-            scrollbar: {
-            el: '.swiper-scrollbar',
-            },
-            });
-    </script>
-    <script src="./JS/"></script>
+    <!-- <script src="./JS/"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 1000,
         });
-    </script>
+    </script> -->
 </body>
 </html>
