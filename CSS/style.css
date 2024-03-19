@@ -311,6 +311,7 @@ li a:hover {
     padding: 40px;
     border-radius: 5px;
     margin-top: 50px;
+    flex: none;
 }
 
 #slide .slide-cards .slide-card:hover {
